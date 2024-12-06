@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: "Alice", serif;
+    line-height: 150%;
+}
+
+
+body {
+    background-image: url(https://cooknenjoy.com/wp-content/uploads/2021/05/Bolo-Chocolate-Maracuja-02.jpg);
+    background-size: cover;
+    backdrop-filter: blur(2px);
+}
+
+#page {
+    box-sizing: border-box;
+    width: 800px;
+    padding: 24px;
+    background-color: rgb(252, 252, 118);
+    border-radius: 24px;
+    margin: 48px auto;
+}
+
+#page img {
+    border-radius: 16px;
+    width: 700px;
+    margin-top: 16px;
+    margin-left: 27px;
+
+}
+
+main {
+    padding: 24px;
+}
+
+#about p + p {
+    margin-top: 12px;
+}
+
+section + section {
+    margin-top: 24px;
+}
+
+h1 {
+    line-height: 140%;
+    font-size: 40px;
+    margin-bottom: 4px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 4px;
+    margin-top: 6px;
+}
+
+h3, li {
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+#preparation h3 {
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+
+#ingredients h2, h3 {
+    margin-top: 20px;
+}
+
+h1, h2, h3, p, li {
+    color: rgb(78, 24, 24);
+}
+
+ul {
+    padding-left: 24px;
+}
+
+h1, h2 {
+    line-height: 150%; 
+}
+footer {
+    color: rgb(78, 9, 18);
+    text-align: center;
+    font-size: larger;
+}
